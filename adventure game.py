@@ -4,9 +4,12 @@ answer = input("your wife asks what to do your options are: Run, fight, Hide")
 if(answer == "run"):
     print("You escape but leave your family behind")
     answer1 = input("Would you like to go to the city, country, or trainstation?")
-    elif(answer == "city"):
-    elif(answer == "country"):
-    elif(answer == "trainstation"):    
+    if(answer == "city"):
+        print("You are captured")
+    if(answer == "country"):
+        print("You find somewhere to hide but haveno food or shelter and night is approaching")
+    if(answer == "trainstation"):
+        print("You are caught and taken by the gestapo") 
     elif(answer == "fight"):
     print("You beat up the men but your wife is injured")
         elif(answer == "Hide"):
