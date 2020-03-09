@@ -6,10 +6,13 @@ if(answer == "run"):
     answer1 = input("Would you like to go to the city, country, or trainstation?")
     if(answer == "city"):
         print("You are captured")
+        answer2 = input("You die")
     if(answer == "country"):
-        print("You find somewhere to hide but haveno food or shelter and night is approaching")
+        print("You find somewhere to hide but have no food or shelter and night is approaching")
+        answer3 = input("Would you like to try and find food or wait out the night")
     if(answer == "trainstation"):
-        print("You are caught and taken by the gestapo") 
+        print("You are caught and taken by the gestapo")
+        answer4 = input("You die")
     elif(answer == "fight"):
     print("You beat up the men but your wife is injured")
         elif(answer == "Hide"):
