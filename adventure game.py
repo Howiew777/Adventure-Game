@@ -15,8 +15,10 @@ if(answer == "run"):
         answer4 = input("You die")
     elif(answer == "fight"):
     print("You beat up the men but your wife is injured")
+    answer5 = input("semi-succesfu")
         elif(answer == "Hide"):
     print("You are found and taken by the gestapo, better luck next time")
+        answer5 = input("Game over")
 
 print()
 
