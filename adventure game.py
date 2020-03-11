@@ -13,6 +13,9 @@ if(answer == "run"):
     if(answer == "trainstation"):
         print("You are caught and taken by the gestapo")
         answer4 = input("You die")
+        if(answer == "wait out night"):
+            print("you survive but are very hungry")
+            answer6 = input("you are desperate for food")
     elif(answer == "fight"):
     print("You beat up the men but your wife is injured")
     answer5 = input("semi-succesfu")
